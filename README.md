@@ -15,7 +15,7 @@ is completely broken. Essentially like an intentional "backdoor" or like LinuxBO
 
 While this should work on all extlinux configurations, the primary idea is to use this on NixOS hosts like on the mainframe in the OSS cloud. So what youd have to do for that is roughly
 
-```
+```nix
 boot.loader.generic-extlinux-compatible.enable = true;
 ```
 
